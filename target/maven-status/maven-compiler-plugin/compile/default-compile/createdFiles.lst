@@ -1,0 +1,5 @@
+com/hidisp/HidispApplication.class
+com/hidisp/demos/web/PathVariableController.class
+com/hidisp/entity/User.class
+com/hidisp/dao/UserDao.class
+com/hidisp/demos/web/BasicController.class

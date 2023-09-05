@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hidisp.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.hidisp.entity.User">
+            <id property="uid" column="uid" jdbcType="INTEGER"/>
+            <result property="uname" column="uname" jdbcType="VARCHAR"/>
+            <result property="upwd" column="upwd" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="VARCHAR"/>
+            <result property="birthday" column="birthday" jdbcType="TIMESTAMP"/>
+            <result property="marry" column="marry" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        uid,uname,upwd,
+        sex,birthday,marry
+    </sql>
+</mapper>
