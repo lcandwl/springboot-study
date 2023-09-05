@@ -36,7 +36,7 @@ class HidispApplicationTests {
         user.setSex("male");
         user.setMarry(1);
         Integer one = mapper.insert(user);
-        logger.info("insert successful"+one+"条数据!");
+        logger.info("insert successful"+one+"条数据...!");
         mapper.selectList(null).forEach(System.out::println);
 
     }
